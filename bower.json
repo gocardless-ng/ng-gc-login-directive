@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "main": "ng-gc-login-directive.js",
   "dependencies": {
-    "bower-angular": "git@github.com:angular/bower-angular.git#v1.2.0-rc.2"
+    "bower-angular": "git@github.com:angular/bower-angular.git#v1.2.0-rc.2",
+    "ng-security-service": "git@github.com:gocardless-ng/ng-security-service.git",
+    "ng-gc-dialog-directive": "git@github.com:gocardless-ng/ng-gc-dialog-directive.git"
   },
   "devDependencies": {
     "bower-angular-mocks": "git@github.com:angular/bower-angular-mocks.git#v1.2.0-rc.2",

@@ -25,6 +25,14 @@ module.exports = function(config) {
       // Specs helpers
       'components/jasmine-helpers/*.js',
 
+      'components/bower-redefine/*.js',
+      'components/bower-eddy-x/*.js',
+      'components/dialog.js/*.js',
+      'components/object-factory.js/*.js',
+      'components/ng-auth-service/*.js',
+      'components/ng-security-service/**/*.js',
+      'components/ng-gc-dialog-directive/*.js',
+
       // app & specs
       'src/**/*.js',
 
