@@ -21,6 +21,7 @@
     "package.json",
     "Gruntfile.js",
     "readme.md",
-    "karma.conf.js"
+    "karma.conf.js",
+    "circle.yml"
   ]
 }
