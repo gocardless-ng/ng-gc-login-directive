@@ -39,5 +39,7 @@ angular.module('gc.loginController', [
       $scope.isVisible = isVisible;
     });
 
+    $scope.AppConfig = $window.AppConfig;
+
   }
 ]);

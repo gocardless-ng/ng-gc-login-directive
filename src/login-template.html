@@ -19,7 +19,14 @@
           <span ng-show="loginForm.loginEmail.$error.required">Please provide a valid email</span>
         </div>
 
-        <label for="login-password" class="label label--stacked">Password</label>
+        <div class="u-cf">
+          <div class="u-pull-start">
+            <label for="login-password" class="label label--stacked">Password</label>
+          </div>
+          <div class="u-pull-end" ng-show="AppConfig.gocardless">
+            <a href="{{ AppConfig.gocardless.host }}/users/password/new" class="label label--stacked u-link u-text-normal">Forgot your password?</a>
+          </div>
+        </div>
         <input type="password" id="login-password" name="loginPassword"
           ng-model="loginDetails.password"
           class="input input--stacked input--block">
